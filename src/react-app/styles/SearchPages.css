@@ -1,0 +1,167 @@
+.SearchPages {
+    display: grid;
+    grid-template-rows: 80px auto;
+    width: 100%;
+    height: 100%;
+}
+
+.SearchInput {
+    margin: auto;
+    padding: 10px;
+}
+
+.FormInput {
+    width: 450px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #212529;
+
+    display: flex;
+    justify-content: center;
+}
+
+.FormInput > i {
+    font-size: 28px;
+    margin: auto;
+}
+
+.MyInput {
+    user-select: none;
+    width: 65%;
+    height: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #6b6b81;
+    margin: auto;
+    color: #c4bdbd;
+    text-align: center;
+    font-size: 15px;
+
+    transition-duration: 250ms;
+}
+
+.MyInput:focus {
+    border: 2px solid #6b6b81;
+    border-radius: 5px;
+}
+
+.MyButton {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    color: #c4bdbd;
+    padding: 5px;
+    border-radius: 5px;
+
+    transition-duration: 250ms;
+}
+
+.MyButton:hover {
+    background-color: #677481;
+    color: #2c3034;
+}
+
+
+/* SearchContent */
+
+.SearchContent {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.SearchElementBundle {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.videoElementImg {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.SearchElement {
+    margin: 6px;
+    width: 1075px;
+    padding: 8px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3% 75%;
+    grid-template-rows: 25% 25% 25% 25%;
+    color: #c4bdbd;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    transition-duration: 250ms;
+}
+
+.SearchVideoImg {
+    border-radius: 5px;
+    margin: auto;
+    width: 150px;
+    height: 75px;
+}
+
+.play-btn-element {
+    color: #db4545;
+    cursor: pointer;
+    transition-duration: 250ms;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.play-btn-element:hover {
+    background-color: #677481;
+}
+
+.VideoDescription {
+    align-items: center;
+    display: none;
+    grid-template-columns: 11% auto;
+    grid-template-rows: 33% 33% 33%;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 6px;
+    padding: 8px;
+    color: #c4bdbd;
+    border-radius: 5px;
+    width: 285px;
+
+    transition-duration: 250ms;
+}
+
+.VideoDescription > span {
+    text-decoration: none;
+    color: #c4bdbd;
+    transition-duration: 250ms;
+    border-radius: 5px;
+}
+
+.VideoDescription > span:hover {
+    background-color: #677481;
+    color: #2c3034;
+}
+
+.VideoDescription:hover {
+    background-color: rgb(0 0 0 / 41%);
+}
+
+.SearchElement:hover {
+    background-color: rgb(0 0 0 / 41%);
+}
+
+.Icon-btn {
+    border-right: 1px white solid;
+    margin-right: 5px;
+}
+
+
+/*  ContentStyleSearch  */
+.ContentStyleSearch {
+    height: 780px;
+    border-radius: 5px;
+}

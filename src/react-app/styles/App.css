@@ -1,0 +1,31 @@
+@import "ContentStatic.css";
+@import "NavBar.css";
+@import "SearchPages.css";
+@import "ChannelPages.css";
+@import "fontawesome/css/all.css";
+@import "WindowBar.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: "system-ui";
+  outline: none;
+}
+
+.MainContent {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 30px auto;
+  height: 100vmin;
+  width: 1365px;
+}
+
+.App {
+  display: grid;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

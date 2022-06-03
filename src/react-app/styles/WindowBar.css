@@ -1,0 +1,33 @@
+.WindowBar {
+    margin: auto;
+    margin-top: 7px;
+    background-color: #2c3034;
+    width: 99%;
+    height: 28px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 90% 5% 5%;
+    padding: 1px;
+}
+
+.WindowBtn {
+    cursor: pointer;
+    width: 50px;
+    color: #c4bdbd;
+    border-radius: 5px;
+    height: 25px;
+    transition-duration: 250ms;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WindowBtn:hover{
+    background-color: #1d2123;
+}
+
+.WindowDrag {
+    -webkit-app-region: drag;
+}

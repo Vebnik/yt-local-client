@@ -1,0 +1,19 @@
+.NavBarButton {
+    height: 40px;
+    margin: 8px;
+
+    font-size: 17px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #c4bdbd;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 20% auto;
+    align-items: center;
+}
+
+.NavBarButton:hover {
+    background-color: #677481;
+    color: #2c3034;
+}
